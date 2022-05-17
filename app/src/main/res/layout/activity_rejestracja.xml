@@ -32,17 +32,17 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EmailInput"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneInput"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/EmailInput"
+        android:id="@+id/PhoneInput"
         android:layout_width="210dp"
         android:layout_height="39dp"
         android:layout_marginTop="18dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Adres e-mail"
+        android:text="Numer Telefonu"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,12 +61,13 @@
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/buttonZarejestruj"
+        android:id="@+id/RegisterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"

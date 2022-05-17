@@ -6,18 +6,18 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/loginButton2"
+        android:id="@+id/LoginButton"
         android:layout_width="166dp"
         android:layout_height="46dp"
         android:layout_marginTop="40dp"
         android:text="Zaloguj się"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordinput2"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordLoginInput"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/passwordinput2"
+        android:id="@+id/PasswordLoginInput"
         android:layout_width="210dp"
         android:layout_height="39dp"
         android:layout_marginTop="26dp"
@@ -28,17 +28,17 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        app:layout_constraintTop_toBottomOf="@+id/EmailLoginInput"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/emailInput"
+        android:id="@+id/EmailLoginInput"
         android:layout_width="210dp"
         android:layout_height="39dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Adres e-mail"
+        android:text="Numer telefonu"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
