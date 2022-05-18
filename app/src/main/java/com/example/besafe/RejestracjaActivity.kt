@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import at.favre.lib.crypto.bcrypt.BCrypt
 import com.google.firebase.database.*
 import java.util.*
 import kotlin.collections.HashMap
@@ -50,6 +51,10 @@ class RejestracjaActivity : AppCompatActivity() {
         if (nametxt.isEmpty() || surnametxt.isEmpty() || phonetxt.isEmpty() || passwordtxt.isEmpty() || codetxt.isEmpty()) {
             Toast.makeText(this, "Proszę wypełnić wszystkie pola", Toast.LENGTH_SHORT).show()
         } else {
+
+            // Hashowanie
+            val passHash = BCrypt.withDefaults().hashToString(12,passwordtxt.toCharArray())
+
             var klucze: HashMap<*, *>
             var potwierdzenie: Boolean
             databaseReference.child("ActivationKeys").get().addOnSuccessListener {
@@ -69,7 +74,8 @@ class RejestracjaActivity : AppCompatActivity() {
                     databaseReference.child("users").child(phonetxt).child("surname").setValue(surnametxt)
                     databaseReference.child("users").child(phonetxt).child("phone number")
                         .setValue(phonetxt)
-                    databaseReference.child("users").child(phonetxt).child("password").setValue(passwordtxt)
+                    // Hashowanie
+                    databaseReference.child("users").child(phonetxt).child("password").setValue(passHash)
                     databaseReference.child("ActivationKeys").child(codetxt).removeValue()
 
                     Toast.makeText(this, "Rejestracja przebiegła pomyślnie", Toast.LENGTH_SHORT).show()
@@ -80,7 +86,8 @@ class RejestracjaActivity : AppCompatActivity() {
                         "Kod weryfikacyjny nie występuje w bazie - uzyskaj nowy",
                         Toast.LENGTH_SHORT
                     ).show()
-                    finish()
+                    codeInput.text.clear()
+                    //finish()
                 }
             }.addOnFailureListener {
                 Log.e("firebase", "Error getting data", it)
