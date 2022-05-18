@@ -25,9 +25,6 @@ class LogowanieActivity : AppCompatActivity() {
             val email = emailInput.text.toString()
             val password = passwordInput.text.toString()
         }
-
-        textDisappear(emailInput)
-        textDisappear(passwordInput)
     }
 
 
@@ -51,13 +48,6 @@ class LogowanieActivity : AppCompatActivity() {
                 databaseReference.child("users").child(phonetxt)
                     .child("phone number").get()
             }
-        }
-    }
-
-
-    private fun textDisappear(napis:EditText){
-        napis.setOnClickListener {
-            napis.text.clear()
         }
     }
 }

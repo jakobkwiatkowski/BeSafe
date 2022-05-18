@@ -28,20 +28,8 @@ class RejestracjaActivity : AppCompatActivity() {
         val surnameInput = findViewById<EditText>(R.id.SurnameInput)
         val codeInput = findViewById<EditText>(R.id.CodeInput)
 
-        textDisappear(phoneInput)
-        textDisappear(passwordInput)
-        textDisappear(nameInput)
-        textDisappear(surnameInput)
-        textDisappear(codeInput)
-
         registerButton.setOnClickListener {
             register()
-        }
-    }
-
-    fun textDisappear(napis:EditText){
-        napis.setOnClickListener {
-            napis.text.clear()
         }
     }
 
