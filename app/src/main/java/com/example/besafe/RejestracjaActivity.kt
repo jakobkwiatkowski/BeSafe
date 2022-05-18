@@ -22,8 +22,26 @@ class RejestracjaActivity : AppCompatActivity() {
 
         val registerButton = findViewById<Button>(R.id.RegisterButton)
 
+        val phoneInput = findViewById<EditText>(R.id.PhoneInput)
+        val passwordInput = findViewById<EditText>(R.id.PasswordInput)
+        val nameInput = findViewById<EditText>(R.id.NameInput)
+        val surnameInput = findViewById<EditText>(R.id.SurnameInput)
+        val codeInput = findViewById<EditText>(R.id.CodeInput)
+
+        textDisappear(phoneInput)
+        textDisappear(passwordInput)
+        textDisappear(nameInput)
+        textDisappear(surnameInput)
+        textDisappear(codeInput)
+
         registerButton.setOnClickListener {
             register()
+        }
+    }
+
+    fun textDisappear(napis:EditText){
+        napis.setOnClickListener {
+            napis.text.clear()
         }
     }
 
@@ -34,12 +52,11 @@ class RejestracjaActivity : AppCompatActivity() {
         val surnameInput = findViewById<EditText>(R.id.SurnameInput)
         val codeInput = findViewById<EditText>(R.id.CodeInput)
 
-
-        val nametxt = nameInput.getText().toString().trim()
-        val surnametxt = surnameInput.getText().toString().trim()
-        val phonetxt = phoneInput.getText().toString().trim()
-        val passwordtxt = passwordInput.getText().toString().trim()
-        val codetxt = codeInput.getText().toString().trim()
+        val nametxt = nameInput.text.toString().trim()
+        val surnametxt = surnameInput.text.toString().trim()
+        val phonetxt = phoneInput.text.toString().trim()
+        val passwordtxt = passwordInput.text.toString().trim()
+        val codetxt = codeInput.text.toString().trim()
 
 
         if (nametxt.isEmpty() || surnametxt.isEmpty() || phonetxt.isEmpty() || passwordtxt.isEmpty() || codetxt.isEmpty()) {
@@ -57,7 +74,7 @@ class RejestracjaActivity : AppCompatActivity() {
                         "Poprawny indywidualny kod weryfikacyjny",
                         Toast.LENGTH_SHORT
                     ).show()
-                    val newID = UUID.randomUUID().toString()
+
                     databaseReference.child("users").child(phonetxt).child("verification code")
                         .setValue(codetxt)
                     databaseReference.child("users").child(phonetxt).child("name").setValue(nametxt)
