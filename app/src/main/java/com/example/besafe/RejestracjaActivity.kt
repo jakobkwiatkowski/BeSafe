@@ -65,6 +65,7 @@ class RejestracjaActivity : AppCompatActivity() {
                     databaseReference.child("users").child(phonetxt).child("phone number")
                         .setValue(phonetxt)
                     databaseReference.child("users").child(phonetxt).child("password").setValue(passwordtxt)
+                    databaseReference.child("ActivationKeys").child(codetxt).removeValue()
 
                     Toast.makeText(this, "Rejestracja przebiegła pomyślnie", Toast.LENGTH_SHORT).show()
                     finish()
