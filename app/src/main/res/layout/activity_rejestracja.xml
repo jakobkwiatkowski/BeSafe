@@ -7,9 +7,10 @@
 
     <EditText
         android:id="@+id/CodeInput"
-        android:layout_width="210dp"
+        android:layout_width="230dp"
         android:layout_height="39dp"
         android:layout_marginTop="14dp"
+        android:backgroundTint="#1E90FF"
         android:ems="10"
         android:hint="Kod weryfikacyjny"
         android:inputType="textPersonName"
@@ -22,12 +23,13 @@
 
     <EditText
         android:id="@+id/PasswordInput"
-        android:layout_width="210dp"
+        android:layout_width="230dp"
         android:layout_height="39dp"
         android:layout_marginTop="14dp"
+        android:backgroundTint="#1E90FF"
         android:ems="10"
         android:hint="Hasło"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,11 +39,12 @@
 
     <EditText
         android:id="@+id/PhoneInput"
-        android:layout_width="210dp"
+        android:layout_width="230dp"
         android:layout_height="39dp"
         android:layout_marginTop="14dp"
+        android:backgroundTint="#1E90FF"
         android:ems="10"
-        android:hint="Numer Telefonu"
+        android:hint="Numer telefonu"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textSize="16sp"
@@ -52,9 +55,10 @@
 
     <EditText
         android:id="@+id/NameInput"
-        android:layout_width="210dp"
+        android:layout_width="230dp"
         android:layout_height="39dp"
         android:layout_marginTop="14dp"
+        android:backgroundTint="#1E90FF"
         android:ems="10"
         android:hint="Imię"
         android:inputType="textPersonName"
@@ -68,11 +72,12 @@
 
     <Button
         android:id="@+id/RegisterButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
+        android:layout_width="251dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#1E90FF"
         android:text="Zarejestruj się"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +87,7 @@
         android:id="@+id/imageView"
         android:layout_width="220dp"
         android:layout_height="65dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,9 +98,9 @@
         android:id="@+id/imageView2"
         android:layout_width="306dp"
         android:layout_height="179dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/text1" />
@@ -104,17 +109,19 @@
         android:id="@+id/imageView3"
         android:layout_width="301dp"
         android:layout_height="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/text2" />
 
     <EditText
         android:id="@+id/SurnameInput"
-        android:layout_width="210dp"
+        android:layout_width="230dp"
         android:layout_height="39dp"
         android:layout_marginTop="14dp"
+        android:backgroundTint="#1E90FF"
         android:ems="10"
         android:hint="Nazwisko"
         android:inputType="textPersonName"
