@@ -67,7 +67,7 @@ class LogowanieActivity : AppCompatActivity() {
                                 if (result.verified) {
                                     Toast.makeText(
                                         baseContext,
-                                        "Witaj ${snapshot.child("name").value.toString()}",
+                                        "Witaj, ${snapshot.child("name").value.toString()} !",
                                         Toast.LENGTH_SHORT
                                     ).show()
                                     phoneInput.text.clear()
