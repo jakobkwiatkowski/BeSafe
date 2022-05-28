@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeSafe">
         <activity
+            android:name=".KrBez2"
+            android:exported="false" />
+        <activity
+            android:name=".KrApteczka3"
+            android:exported="false" />
+        <activity
+            android:name=".KrApteczka2"
+            android:exported="false" />
+        <activity
             android:name=".KrNos3"
             android:exported="false" />
         <activity

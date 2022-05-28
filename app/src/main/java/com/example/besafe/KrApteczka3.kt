@@ -6,12 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class KrNiebezpiecznie : AppCompatActivity() {
+class KrApteczka3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kr_niebezpiecznie)
+        setContentView(R.layout.activity_kr_apteczka3)
 
-        val pomoc = findViewById<Button>(R.id.niebPomoc)
+        val pomoc = findViewById<Button>(R.id.krPomoc)
 
         pomoc.setOnClickListener {
             val numer = "112"
