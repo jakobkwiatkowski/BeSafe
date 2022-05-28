@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wezwanie">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="354dp"
+        android:layout_height="545dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792">
+
+        <RadioButton
+            android:id="@+id/radioButton112"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:buttonTint="#1E90FF"
+            android:text="Numer Alarmowy: 112"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton999"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Pogotowie Ratunkowe: 999"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton998"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Straż Pożarna: 998"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton997"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Policja: 997"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton986"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Straż Miejska: 986"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton991"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Pogotowie Energetyczne: 991"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton993"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Pogotowie Ciepłowniczne: 993"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton994"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Pogotowie Wodociągowe: 994"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton992"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Pogotowie Gazowe: 992"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKontakty"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Wybierz numer z kontaków"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonInnyNr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:buttonTint="#1E90FF"
+            android:text="Wprowadź inny numer"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="335dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/domowa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

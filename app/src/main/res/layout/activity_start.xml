@@ -17,17 +17,17 @@
         app:layout_constraintVertical_bias="0.063"
         app:srcCompat="@drawable/logo" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
+    <Button
+        android:id="@+id/wezwijPomocButton"
         android:layout_width="290dp"
         android:layout_height="98dp"
         android:text="WEZWIJ POMOC"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="21dp"
         android:textStyle="bold"
-        app:chipStrokeColor="#1E90FF"
-        app:chipStrokeWidth="4dp"
+        android:backgroundTint="#1E90FF"
+        app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -35,17 +35,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.292" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip5"
+    <Button
+        android:id="@+id/udzielPomocyButton"
         android:layout_width="290dp"
         android:layout_height="98dp"
         android:text="UDZIEL POMOCY"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="21dp"
         android:textStyle="bold"
-        app:chipStrokeColor="#1E90FF"
-        app:chipStrokeWidth="4dp"
+        android:backgroundTint="#1E90FF"
+        app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -53,34 +53,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip6"
+    <Button
+        android:id="@+id/twojeBezpieczenstwoButton"
         android:layout_width="290dp"
         android:layout_height="98dp"
         android:text="TWOJE BEZPIECZEŃSTWO"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="21dp"
         android:textStyle="bold"
-        app:chipStrokeColor="#1E90FF"
-        app:chipStrokeWidth="4dp"
+        android:backgroundTint="#1E90FF"
+        app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.709" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip7"
+    <Button
+        android:id="@+id/dodatkoweInformacjeButton"
         android:layout_width="290dp"
         android:layout_height="98dp"
         android:text="DODATKOWE INFORMACJE"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="21dp"
         android:textStyle="bold"
-        app:chipStrokeColor="#1E90FF"
-        app:chipStrokeWidth="4dp"
+        app:cornerRadius="30dp"
+        android:backgroundTint="#1E90FF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

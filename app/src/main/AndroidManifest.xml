@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeSafe">
         <activity
+            android:name=".Wezwanie"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".StartActivity"
             android:screenOrientation="portrait" />
         <activity
