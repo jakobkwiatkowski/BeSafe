@@ -12,11 +12,13 @@ class StartActivity : AppCompatActivity() {
 
     private var wyjdz: TextView? = null
     private var wezwijPomoc: Button? = null
+    private var udzielPomoc: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
+        udzielPomoc = findViewById(R.id.udzielPomocyButton)
         wyjdz = findViewById(R.id.wyjdzButton)
         wezwijPomoc = findViewById(R.id.wezwijPomocButton)
 
@@ -40,6 +42,10 @@ class StartActivity : AppCompatActivity() {
             val intent = Intent(this, Wezwanie::class.java)
             startActivity(intent)
 
+        }
+        udzielPomoc?.setOnClickListener {
+            val intent = Intent(this, UdzielPomocy::class.java)
+            startActivity(intent)
         }
     }
 }

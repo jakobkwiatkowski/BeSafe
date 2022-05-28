@@ -12,9 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeSafe">
         <activity
+            android:name=".KrNos3"
+            android:exported="false" />
+        <activity
+            android:name=".KrNos2"
+            android:exported="false" />
+        <activity
+            android:name=".KrBezApteczki"
+            android:exported="false" />
+        <activity
+            android:name=".KrApteczka"
+            android:exported="false" />
+        <activity
+            android:name=".KrNosApteczka"
+            android:exported="false" />
+        <activity
+            android:name=".KrNosBezApteczki"
+            android:exported="false" />
+        <activity
+            android:name=".KrNieZNosa"
+            android:exported="false" />
+        <activity
+            android:name=".KrZNosa"
+            android:exported="false" />
+        <activity
+            android:name=".KrBezpiecznie"
+            android:exported="false" />
+        <activity
+            android:name=".KrNiebezpiecznie"
+            android:exported="false" />
+        <activity
+            android:name=".KrCzyBezpiecznie"
+            android:exported="false" />
+        <activity
+            android:name=".UdzielPomocy"
+            android:exported="false" />
+        <activity
             android:name=".Wezwanie"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".StartActivity"
             android:screenOrientation="portrait" />
