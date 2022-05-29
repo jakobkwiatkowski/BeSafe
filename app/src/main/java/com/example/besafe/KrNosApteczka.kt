@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class KrNosApteczka : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,10 +12,23 @@ class KrNosApteczka : AppCompatActivity() {
         setContentView(R.layout.activity_kr_nos_apteczka)
 
         val dalej = findViewById<Button>(R.id.Dalej)
+        val wrocA5 = findViewById<ImageView>(R.id.wrocA5)
+        val domowaA5 = findViewById<ImageView>(R.id.domowaA5)
 
         dalej.setOnClickListener {
             val intent = Intent(this, KrNos2::class.java)
             startActivity(intent)
         }
+
+        wrocA5.setOnClickListener {
+            val intent = Intent(this, KrZNosa::class.java)
+            startActivity(intent)
+        }
+
+        domowaA5.setOnClickListener {
+            val intent = Intent(this, StartActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -7,27 +7,27 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 
-class KrNos3 : AppCompatActivity() {
+class KrBezApteczki3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kr_nos3)
+        setContentView(R.layout.activity_kr_bezapteczka3)
 
-        val pomoc = findViewById<Button>(R.id.NosPomoc)
-        val wrocA7 = findViewById<ImageView>(R.id.wrocA7)
-        val domowaA7 = findViewById<ImageView>(R.id.domowaA7)
+        val pomoc = findViewById<Button>(R.id.krPomoc)
+        val wrocA12 = findViewById<ImageView>(R.id.wrocA12)
+        val domowaA12 = findViewById<ImageView>(R.id.domowaA12)
 
         pomoc.setOnClickListener {
             val numer = "112"
             val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + Uri.encode(numer)))
             startActivity(intent)
         }
-
-        wrocA7.setOnClickListener {
-            val intent = Intent(this, KrZNosa::class.java)
+        
+        wrocA12.setOnClickListener {
+            val intent = Intent(this, KrBez2::class.java)
             startActivity(intent)
         }
 
-        domowaA7.setOnClickListener {
+        domowaA12.setOnClickListener {
             val intent = Intent(this, StartActivity::class.java)
             startActivity(intent)
         }

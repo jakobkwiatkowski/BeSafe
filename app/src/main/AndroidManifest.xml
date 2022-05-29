@@ -24,6 +24,9 @@
             android:name=".KrBez2"
             android:exported="false" />
         <activity
+            android:name=".KrBezApteczki3"
+            android:exported="false" />
+        <activity
             android:name=".KrApteczka3"
             android:exported="false" />
         <activity

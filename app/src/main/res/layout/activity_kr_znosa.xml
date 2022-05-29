@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".KrZNosa">
 
+    <ImageView
+        android:id="@+id/wrocA4"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wroc" />
+
+    <ImageView
+        android:id="@+id/domowaA4"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/domowa" />
+
     <Button
         android:id="@+id/buttonczyjestnie4"
         android:layout_width="156dp"
@@ -16,7 +36,7 @@
         android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintHorizontal_bias="0.847"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -29,7 +49,7 @@
         android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -44,11 +64,11 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_width="370dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="116dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView23"
         app:srcCompat="@drawable/apteczka" />

@@ -7,6 +7,26 @@
     tools:context=".KrNos3">
 
     <ImageView
+        android:id="@+id/wrocA7"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wroc" />
+
+    <ImageView
+        android:id="@+id/domowaA7"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="668dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/domowa" />
+
+    <ImageView
         android:id="@+id/imageView38"
         android:layout_width="35dp"
         android:layout_height="36dp"
@@ -33,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934" />
+        app:layout_constraintVertical_bias="0.81" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -47,10 +67,11 @@
 
     <ImageView
         android:id="@+id/imageView35"
-        android:layout_width="395dp"
-        android:layout_height="303dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="362dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView34"
         app:srcCompat="@drawable/nos4" />

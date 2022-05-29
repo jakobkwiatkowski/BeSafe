@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KrNos2">
+    tools:context=".KrApteczka3">
 
     <ImageView
-        android:id="@+id/domowaA6"
+        android:id="@+id/domowaA12"
         android:layout_width="44dp"
         android:layout_height="46dp"
         android:layout_marginTop="668dp"
@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/domowa" />
 
     <ImageView
-        android:id="@+id/wrocA6"
+        android:id="@+id/wrocA12"
         android:layout_width="44dp"
         android:layout_height="46dp"
         android:layout_marginTop="668dp"
@@ -26,25 +26,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/wroc" />
 
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="37dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/krPomoc"
+        app:srcCompat="@drawable/cross"
+        android:translationZ="90dp"/>
+
     <Button
-        android:id="@+id/dalej3"
+        android:id="@+id/krPomoc"
         android:layout_width="285dp"
         android:layout_height="60dp"
-        android:backgroundTint="#1E90FF"
-        android:text="dalej"
+        android:backgroundTint="#E70B0B"
+        android:text="Wezwij pomoc"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="21dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.873" />
+        app:layout_constraintVertical_bias="0.813" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/imageView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -54,23 +66,25 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="352dp"
-        android:layout_height="287dp"
-        android:layout_marginTop="32dp"
+        android:id="@+id/imageView43"
+        android:layout_width="348dp"
+        android:layout_height="306dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView30"
-        app:srcCompat="@drawable/nos2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView42"
+        app:srcCompat="@drawable/krapteczka3" />
 
     <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="334dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="36dp"
+        android:id="@+id/imageView46"
+        android:layout_width="37dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView32"
-        app:srcCompat="@drawable/nos3" />
+        app:layout_constraintTop_toTopOf="@+id/krPomoc"
+        app:srcCompat="@drawable/cross"
+        android:translationZ="90dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

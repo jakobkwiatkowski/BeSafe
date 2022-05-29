@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class KrNiebezpiecznie : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,11 +13,24 @@ class KrNiebezpiecznie : AppCompatActivity() {
         setContentView(R.layout.activity_kr_niebezpiecznie)
 
         val pomoc = findViewById<Button>(R.id.niebPomoc)
+        val wrocA2 = findViewById<ImageView>(R.id.wrocA2)
+        val domowaA2 = findViewById<ImageView>(R.id.domowaA2)
 
         pomoc.setOnClickListener {
             val numer = "112"
             val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + Uri.encode(numer)))
             startActivity(intent)
         }
+
+        wrocA2.setOnClickListener {
+            val intent = Intent(this, KrCzyBezpiecznie::class.java)
+            startActivity(intent)
+        }
+
+        domowaA2.setOnClickListener {
+            val intent = Intent(this, StartActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

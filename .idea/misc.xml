@@ -3,15 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/_bez_apteczki.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_dod_info.xml" value="0.264" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_apteczka.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_apteczka2.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_apteczka3.xml" value="0.264" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_bez2.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_bez_apteczki.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_bezapteczka3.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_bezpiecznie.xml" value="0.1566579634464752" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_czy_bezpiecznie.xml" value="0.264" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nie_znosa.xml" value="0.264" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_niebezpiecznie.xml" value="0.176" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nos2.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nos2_bez_apteczki.xml" value="0.1" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nos3.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nos_apteczka.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_nos_bez_apteczki.xml" value="0.2" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_kr_znosa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_logowanie.xml" value="0.176" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_rejestracja.xml" value="0.264" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_rozmowa_pop_up.xml" value="0.264" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_srodki_pop_up.xml" value="0.264" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_start.xml" value="0.25" />
-        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_udziel_pomocy.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_udziel_pomocy.xml" value="0.264" />
         <entry key="..\:/Users/48504/AndroidStudioProjects/BeSafeWorkingOn/app/src/main/res/layout/activity_wezwanie.xml" value="0.264" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.218" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.218" />
