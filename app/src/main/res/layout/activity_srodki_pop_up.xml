@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SrodkiPopUp">
+
+    <ImageView
+        android:id="@+id/zamknij2"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.088"
+        app:srcCompat="@drawable/zamknij" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="333dp"
+        android:layout_height="593dp"
+        android:gravity="center"
+        android:text="Stosowanie środków ochrony układu oddechowego w trakcie pracy wymagane jest w trzech przypadkach: \n \n (1) gdy stężenie substancji niebezpiecznych w powietrzu przekracza Najwyższe Dopuszczalne Stężenia (stanowi zagrożenie dla zdrowia i/lub życia), \n (2) gdy zawartość tlenu w wydychanym powietrzu nie przekracza 17% jego składu, \n (3) gdy temperatura wdychanego powietrza przekracza normę będącą dopuszczalną, podczas wykonywania pracy. \n \n Maska ochronna może zapewnić oczyszczanie wdychanego powietrza (przy różnych klasach filtrowania), a sprzęt izolujący dostarczanie powietrza ze źródła wolnego od zanieczyszczeń."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+</androidx.constraintlayout.widget.ConstraintLayout>
