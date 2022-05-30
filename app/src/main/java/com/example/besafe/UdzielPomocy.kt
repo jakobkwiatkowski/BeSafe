@@ -44,7 +44,8 @@ class UdzielPomocy : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
-            val result = tts!!.setLanguage(Locale.US)
+            //val result = tts!!.setLanguage(Locale.US)
+            val result = tts!!.setLanguage(Locale("pl", "PL"))
 
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 Log.e("TTS", "The Language not supported!")
@@ -56,8 +57,8 @@ class UdzielPomocy : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun speakOut() {
         val text =
-            "Identify the emergency situation you are in. You will be able to provide first aid in the following steps."
-        tts!!.setSpeechRate(0.75f);
+            "Zidentyfikuj sytuację zagrożenia, w której się znalazłeś. Postępując według dalszych instrukcji, bedziesz w stanie udzielić pierwszej pomocy lub wezwać służby ratunkowe."
+        tts!!.setSpeechRate(0.85f);
         tts!!.speak(text, TextToSpeech.QUEUE_FLUSH, null, "")
     }
 
