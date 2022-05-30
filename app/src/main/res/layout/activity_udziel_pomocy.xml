@@ -10,11 +10,22 @@
         android:id="@+id/domowa2"
         android:layout_width="44dp"
         android:layout_height="46dp"
-        android:layout_marginTop="676dp"
+        android:layout_marginTop="680dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/domowa" />
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="680dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/speaker" />
 
     <Button
         android:id="@+id/ButtonKrwotok"
@@ -32,7 +43,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -48,7 +59,7 @@
         android:id="@+id/imageView13"
         android:layout_width="289dp"
         android:layout_height="58dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
