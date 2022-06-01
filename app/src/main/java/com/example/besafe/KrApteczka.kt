@@ -12,23 +12,23 @@ class KrApteczka : AppCompatActivity() {
         setContentView(R.layout.activity_kr_apteczka)
 
         val dalej = findViewById<Button>(R.id.dalej2)
-        val wrocA10 = findViewById<ImageView>(R.id.wrocA10)
-        val domowaA10 = findViewById<ImageView>(R.id.domowaA10)
+        //val wrocA10 = findViewById<ImageView>(R.id.wrocA10)
+        //val domowaA10 = findViewById<ImageView>(R.id.domowaA10)
 
         dalej.setOnClickListener {
             val intent = Intent(this, KrApteczka2::class.java)
             startActivity(intent)
         }
 
-        wrocA10.setOnClickListener {
-            val intent = Intent(this, KrNieZNosa::class.java)
-            startActivity(intent)
-        }
+        //wrocA10.setOnClickListener {
+        // val intent = Intent(this, KrNieZNosa::class.java)
+        //  startActivity(intent)
+        // }
 
-        domowaA10.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        // domowaA10.setOnClickListener {
+        //  val intent = Intent(this, StartActivity::class.java)
+        //  startActivity(intent)
+        //}
 
     }
 }

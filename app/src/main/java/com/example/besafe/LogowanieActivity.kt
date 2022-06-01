@@ -65,14 +65,20 @@ class LogowanieActivity : AppCompatActivity() {
                                 val hash = snapshot.child("password").value.toString()
                                 val result = BCrypt.verifyer().verify(password.toCharArray(), hash)
                                 if (result.verified) {
-                                    Toast.makeText(
-                                        baseContext,
-                                        "Witaj, ${snapshot.child("name").value.toString()} !",
-                                        Toast.LENGTH_SHORT
-                                    ).show()
+                                    //Toast.makeText(
+                                    // baseContext,
+                                    // "Witaj, ${snapshot.child("name").value.toString()} !",
+                                    // Toast.LENGTH_SHORT
+                                    //).show()
+
+                                    val intent =
+                                        Intent(this@LogowanieActivity, StartActivity::class.java)
+                                    intent.putExtra("phone", phone)
+                                    startActivity(intent)
+
                                     phoneInput.text.clear()
                                     passwordInput.text.clear()
-                                    goStart()
+
                                 } else {
                                     Toast.makeText(
                                         baseContext,
@@ -95,8 +101,4 @@ class LogowanieActivity : AppCompatActivity() {
         }
     }
 
-    private fun goStart() {
-        val intent = Intent(this, StartActivity::class.java)
-        startActivity(intent)
-    }
 }

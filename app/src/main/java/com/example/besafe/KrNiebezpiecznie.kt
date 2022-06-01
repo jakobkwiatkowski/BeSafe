@@ -13,8 +13,8 @@ class KrNiebezpiecznie : AppCompatActivity() {
         setContentView(R.layout.activity_kr_niebezpiecznie)
 
         val pomoc = findViewById<Button>(R.id.niebPomoc)
-        val wrocA2 = findViewById<ImageView>(R.id.wrocA2)
-        val domowaA2 = findViewById<ImageView>(R.id.domowaA2)
+        //val wrocA2 = findViewById<ImageView>(R.id.wrocA2)
+        //val domowaA2 = findViewById<ImageView>(R.id.domowaA2)
 
         pomoc.setOnClickListener {
             val numer = "112"
@@ -22,15 +22,15 @@ class KrNiebezpiecznie : AppCompatActivity() {
             startActivity(intent)
         }
 
-        wrocA2.setOnClickListener {
-            val intent = Intent(this, KrCzyBezpiecznie::class.java)
-            startActivity(intent)
-        }
+        //wrocA2.setOnClickListener {
+        //val intent = Intent(this, KrCzyBezpiecznie::class.java)
+        //startActivity(intent)
+        // }
 
-        domowaA2.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //domowaA2.setOnClickListener {
+        // val intent = Intent(this, StartActivity::class.java)
+        // startActivity(intent)
+        // }
 
     }
 }

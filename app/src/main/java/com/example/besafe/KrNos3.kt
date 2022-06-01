@@ -13,8 +13,8 @@ class KrNos3 : AppCompatActivity() {
         setContentView(R.layout.activity_kr_nos3)
 
         val pomoc = findViewById<Button>(R.id.NosPomoc)
-        val wrocA7 = findViewById<ImageView>(R.id.wrocA7)
-        val domowaA7 = findViewById<ImageView>(R.id.domowaA7)
+        //val wrocA7 = findViewById<ImageView>(R.id.wrocA7)
+        //val domowaA7 = findViewById<ImageView>(R.id.domowaA7)
 
         pomoc.setOnClickListener {
             val numer = "112"
@@ -22,15 +22,15 @@ class KrNos3 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        wrocA7.setOnClickListener {
-            val intent = Intent(this, KrZNosa::class.java)
-            startActivity(intent)
-        }
+        //wrocA7.setOnClickListener {
+        // val intent = Intent(this, KrZNosa::class.java)
+        // startActivity(intent)
+        //}
 
-        domowaA7.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //domowaA7.setOnClickListener {
+        //val intent = Intent(this, StartActivity::class.java)
+        //startActivity(intent)
+        //}
 
     }
 }

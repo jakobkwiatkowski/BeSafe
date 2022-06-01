@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase
 
 class RejestracjaActivity : AppCompatActivity() {
 
-    val databaseReference: DatabaseReference = FirebaseDatabase.getInstance()
+    private val databaseReference: DatabaseReference = FirebaseDatabase.getInstance()
         .getReferenceFromUrl("https://besafe-ecb67-default-rtdb.europe-west1.firebasedatabase.app/")
 
     override fun onCreate(savedInstanceState: Bundle?) {

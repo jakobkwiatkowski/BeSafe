@@ -21,7 +21,7 @@ class Wezwanie : AppCompatActivity() {
     private var numer992: RadioButton? = null
     private var zKontakty: RadioButton? = null
     private var innyNumer: RadioButton? = null
-    private var domowa: ImageView? = null
+    //private var domowa: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +38,7 @@ class Wezwanie : AppCompatActivity() {
         numer992 = findViewById(R.id.radioButton992)
         zKontakty = findViewById(R.id.radioButtonKontakty)
         innyNumer = findViewById(R.id.radioButtonInnyNr)
-        domowa = findViewById(R.id.imageView11)
+        //domowa = findViewById(R.id.imageView11)
 
         numer112?.setOnClickListener {
             val numer = "112"
@@ -115,10 +115,10 @@ class Wezwanie : AppCompatActivity() {
             startActivity(intent)
         }
 
-        domowa?.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //domowa?.setOnClickListener {
+        //  val intent = Intent(this, StartActivity::class.java)
+        //  startActivity(intent)
+        //}
 
     }
 }

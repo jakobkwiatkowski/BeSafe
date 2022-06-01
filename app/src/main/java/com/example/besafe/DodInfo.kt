@@ -1,6 +1,5 @@
 package com.example.besafe
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,7 +12,7 @@ class DodInfo : AppCompatActivity() {
 
     private var rozmowaInfo: Button? = null
     private var srodkiInfo: Button? = null
-    private var domowa: ImageView? = null
+    //private var domowa: ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +20,7 @@ class DodInfo : AppCompatActivity() {
 
         rozmowaInfo = findViewById(R.id.buttonRozmowa)
         srodkiInfo = findViewById(R.id.buttonSrodkiOchr)
-        domowa = findViewById(R.id.domowa)
+        //domowa = findViewById(R.id.domowa)
 
         rozmowaInfo?.setOnClickListener {
             val mDialogView =
@@ -47,10 +46,10 @@ class DodInfo : AppCompatActivity() {
             btZamknij?.setOnClickListener { mAlertDialog.dismiss() }
         }
 
-        domowa?.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //domowa?.setOnClickListener {
+        //   val intent = Intent(this, StartActivity::class.java)
+        //  startActivity(intent)
+        // }
 
     }
 }

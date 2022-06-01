@@ -6,26 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".KrNosBezApteczki">
 
-    <ImageView
-        android:id="@+id/wrocA8"
-        android:layout_width="44dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="668dp"
-        android:layout_marginEnd="100dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/wroc" />
-
-    <ImageView
-        android:id="@+id/domowaA8"
-        android:layout_width="44dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="668dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/domowa" />
-
     <Button
         android:id="@+id/Dalej2"
         android:layout_width="286dp"

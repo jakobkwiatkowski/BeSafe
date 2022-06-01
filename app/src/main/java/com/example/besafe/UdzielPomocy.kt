@@ -11,7 +11,7 @@ import java.util.*
 
 class UdzielPomocy : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-    private var domowa2: ImageView? = null
+    //private var domowa2: ImageView? = null
     private var tts: TextToSpeech? = null
     private var btnSpeak: ImageView? = null
 
@@ -25,11 +25,11 @@ class UdzielPomocy : AppCompatActivity(), TextToSpeech.OnInitListener {
             startActivity(intent)
         }
 
-        domowa2 = findViewById(R.id.domowa2)
-        domowa2?.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //domowa2 = findViewById(R.id.domowa2)
+        //domowa2?.setOnClickListener {
+        // val intent = Intent(this, StartActivity::class.java)
+        //startActivity(intent)
+        // }
 
         btnSpeak = findViewById(R.id.speaker)
 

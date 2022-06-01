@@ -9,19 +9,23 @@ import android.widget.Toast
 
 class StartActivity : AppCompatActivity() {
 
-    private var wyjdz: TextView? = null
     private var wezwijPomoc: Button? = null
     private var udzielPomoc: Button? = null
+    private var twojeDane: Button? = null
     private var dodInfo: Button? = null
+    private var wyjdz: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
+        val phone = intent.getStringExtra("phone")
+
         udzielPomoc = findViewById(R.id.udzielPomocyButton)
-        wyjdz = findViewById(R.id.wyjdzButton)
         wezwijPomoc = findViewById(R.id.wezwijPomocButton)
+        twojeDane = findViewById(R.id.twojeBezpieczenstwoButton)
         dodInfo = findViewById(R.id.dodatkoweInformacjeButton)
+        wyjdz = findViewById(R.id.wyjdzButton)
 
         wyjdz?.setOnClickListener {
 
@@ -45,6 +49,12 @@ class StartActivity : AppCompatActivity() {
 
         udzielPomoc?.setOnClickListener {
             val intent = Intent(this, UdzielPomocy::class.java)
+            startActivity(intent)
+        }
+
+        twojeDane?.setOnClickListener {
+            val intent = Intent(this@StartActivity, DaneActivity::class.java)
+            intent.putExtra("phone", phone)
             startActivity(intent)
         }
 

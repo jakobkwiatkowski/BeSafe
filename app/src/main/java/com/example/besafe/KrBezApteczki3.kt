@@ -13,24 +13,24 @@ class KrBezApteczki3 : AppCompatActivity() {
         setContentView(R.layout.activity_kr_bezapteczka3)
 
         val pomoc = findViewById<Button>(R.id.krPomoc)
-        val wrocA12 = findViewById<ImageView>(R.id.wrocA12)
-        val domowaA12 = findViewById<ImageView>(R.id.domowaA12)
+        //val wrocA12 = findViewById<ImageView>(R.id.wrocA12)
+        //val domowaA12 = findViewById<ImageView>(R.id.domowaA12)
 
         pomoc.setOnClickListener {
             val numer = "112"
             val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + Uri.encode(numer)))
             startActivity(intent)
         }
-        
-        wrocA12.setOnClickListener {
-            val intent = Intent(this, KrBez2::class.java)
-            startActivity(intent)
-        }
 
-        domowaA12.setOnClickListener {
-            val intent = Intent(this, StartActivity::class.java)
-            startActivity(intent)
-        }
+        //wrocA12.setOnClickListener {
+        // val intent = Intent(this, KrBez2::class.java)
+        // startActivity(intent)
+        // }
+
+        //domowaA12.setOnClickListener {
+        // val intent = Intent(this, StartActivity::class.java)
+        // startActivity(intent)
+        //}
 
     }
 }

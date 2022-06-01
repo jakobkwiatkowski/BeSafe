@@ -7,26 +7,6 @@
     tools:context=".KrNiebezpiecznie">
 
     <ImageView
-        android:id="@+id/domowaA2"
-        android:layout_width="44dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="668dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/domowa" />
-
-    <ImageView
-        android:id="@+id/wrocA2"
-        android:layout_width="44dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="668dp"
-        android:layout_marginEnd="100dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/wroc" />
-
-    <ImageView
         android:id="@+id/imageView50"
         android:layout_width="35dp"
         android:layout_height="36dp"
